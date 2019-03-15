@@ -114,6 +114,8 @@ nav {
 .portfolio {
     background-color: #F7F7F7;
     height: 1220px;
+    padding-bottom: 70px;
+    
 }
 .portfolio_text {
     padding-top: 120px;
@@ -133,8 +135,22 @@ nav {
     width: 70%;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 } 
-.card {
-    display: inline-block;
+.portfolio_cards_text {
+    background-color: #fff; 
+    margin-bottom: 50px;  
+}
+.portfolio_cards_text h2{
+    padding-top: 28px;
+}
+.portfolio_cards_text p {
+    padding-bottom: 28px;
+    color: #808080;
+    font-size: 18px;
+    font-style: italic;
+}
+.block {
 
 }
