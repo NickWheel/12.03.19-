@@ -42,6 +42,7 @@ nav {
     margin-bottom: 50px;
 }
 .welcome h1 {
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 93px;
     margin-bottom: 60px;
@@ -108,4 +109,32 @@ nav {
     font-size: 19px;
     font-style: italic;
     color: #808080;
+}
+
+.portfolio {
+    background-color: #F7F7F7;
+    height: 1220px;
+}
+.portfolio_text {
+    padding-top: 120px;
+    text-align: center;
+}
+.portfolio_text h1 {
+    font-size: 53px;
+}
+.portfolio_text p {
+       color: #808080; 
+       font-style: italic;
+       font-size: 21px;
+       margin-top: 20px;
+       margin-bottom: 80px;
+}
+.portfolio_cards_block {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+} 
+.card {
+    display: inline-block;
+
 }
