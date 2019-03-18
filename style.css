@@ -78,7 +78,7 @@ nav {
     font-weight: bold;
     margin-bottom: 20px;
 }
-.services p {
+ p {
     font-size: 21px;
     font-style: italic;
     color: #808080;
@@ -151,6 +151,122 @@ nav {
     font-size: 18px;
     font-style: italic;
 }
-.block {
 
+
+
+
+.about_us_text {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    text-align: center;
 }
+.about_us_text h2 {
+    font-size: 53px;
+    font-weight: bold;
+}
+.about_us_text_container p {
+    font-size: 18px;
+    width: 400px;
+    min-height: 100px;
+}
+.left_container, .right_container{
+    display: flex;
+    justify-content: center;
+}
+.left_container{
+    justify-content: flex-start;
+}
+.right_container{
+    justify-content: flex-end;    
+}
+.about_us_text_container {
+    min-height: 50px;
+    
+}
+.about_us_container {
+    width: 65%;
+    margin: 0 auto;
+} 
+.our_story_container {
+    margin: 0 auto;
+    text-align: center;
+}
+.our_story_container img {
+    margin: 0 auto;
+}
+
+
+
+.team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #F9F9F9;
+}
+.team_text {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px ;
+}
+.team_text h2 {
+
+    font-weight: bold;
+    font-size: 53px;
+}
+.people {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.people_block {
+    text-align: center;
+}
+.feedback {
+    display: flex;
+    justify-content: center;
+}
+.decription_below_people {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 60px;
+}
+.twitter {
+    background-image: url(img/);
+}
+.twitter:hover {
+    background-image: url(img/);
+}
+.facebook{
+    background-image: url(img/);
+}
+.facebook:hover{
+    background-image: url(img/);
+}
+.pinterest {
+    background-image: url(img/);
+}
+.pinterest:hover {
+    background-image: url(img/);
+}
+.google{
+    background-image: url(img/);
+}
+.google:hover{
+    background-image: url(img/);
+}
+.sponsors {
+
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+
+/* 2.65 */

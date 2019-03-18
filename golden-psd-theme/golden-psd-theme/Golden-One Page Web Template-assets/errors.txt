@@ -1,6 +1,3 @@
-[2019-03-15 11:17:59] layer "Google+": Expected end of input but "+" found.
-[2019-03-15 11:17:59] layer "Google+": Expected end of input but "+" found.
-[2019-03-15 11:17:59] layer "Tuts+": Expected end of input but "+" found.
-[2019-03-15 11:17:59] layer "© Copyright 2014 FreebiesXpress.com": Unsupported extension: com
-[2019-03-15 11:17:59] layer "Google+": Expected end of input but "+" found.
-[2019-03-15 11:17:59] layer "Google+": Expected end of input but "+" found.
+[2019-03-18 09:06:23] layer "© Copyright 2014 FreebiesXpress.com": Unsupported extension: com
+[2019-03-18 09:06:24] layer "Google+": Expected end of input but "+" found.
+[2019-03-18 09:06:24] layer "Google+": Expected end of input but "+" found.
