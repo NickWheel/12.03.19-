@@ -267,6 +267,39 @@ nav {
     justify-content: space-around;
     align-items: center
 }
+.contact_us {
+    background: no-repeat url(img/Map_Image_cut.png);
+    background-size: cover;
+}
+.contact_us_text {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact_us_text h2{
+    font-size: 53px;
+    color: #fff;
+}
+form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    
+}
+input {
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    min-height: 40px;
+}
+.name_mail_text {
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* 2.65 */
