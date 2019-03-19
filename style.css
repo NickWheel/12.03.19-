@@ -310,21 +310,40 @@ nav {
 form {
     width: 70%;
     margin: 0 auto;
-    text-align: center;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
     /* display: flex;
     justify-content: center; */
     
 }
-input {
+.name_mail_text input {
     border: none;
     border-radius: 3px;
     padding-left: 10px;
-    min-height: 40px;
+    min-height: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
 }
-.name_mail_text {
-    display: flex;
-    flex-direction: column;
+.message {
+    top: 0;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-left: 30px;
+    min-height: 210px;
+    box-sizing: border-box;
 }
+.name_mail_text, .message {
+    display: inline-block;
+    width: 45%
+}
+.name_mail_text input{
+    display: block;
+}
+
 
 
 /* 2.65 */
