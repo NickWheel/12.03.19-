@@ -3,9 +3,10 @@
     padding: 0;
 }
 header {
-    height: 800px;
+    min-height: 800px;
     background: url(img/first-bg.jpg) no-repeat;
     background-size: cover;
+    position: relative;
 }
 ul, li {
     list-style: none;
@@ -72,7 +73,7 @@ nav {
 
 .services_section {
     box-sizing: border-box;
-    height: 540px;
+    min-height: 540px;
     /* position: relative; */
 }
 .services {
@@ -100,9 +101,14 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* height: 185px; */
 }
+.card img {
+    width: 100%;
+}
 .services_card {
+    margin-top: 40px;
     display: inline-block;
     max-width: 325px;
 }
@@ -121,9 +127,10 @@ nav {
     color: #808080;
 }
 
+
 .portfolio {
     background-color: #F7F7F7;
-    height: 1220px;
+    min-height: 1220px;
     padding-bottom: 70px;
     
 }
@@ -149,6 +156,7 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 } 
 .portfolio_cards_text {
     background-color: #fff; 
@@ -200,6 +208,7 @@ nav {
     display: flex;  
     margin-bottom: 90px;  
 }
+
 .about_us_text_container,.about_us_img_container, .empty {  
     width: 100%;
     display: flex;
@@ -278,6 +287,7 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .people_block {
     text-align: center;
@@ -329,7 +339,8 @@ nav {
     margin-bottom: 60px;
     display: flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+    flex-wrap: wrap;
 }
 .contact_us {
     background: no-repeat url(img/Map_Image_cut.png);
@@ -417,6 +428,7 @@ form {
 footer {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     width: 70%;
     margin: 0 auto;
     padding: 20px 0 20px 0;
