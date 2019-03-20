@@ -1,3 +1,6 @@
-[2019-03-18 09:06:23] layer "© Copyright 2014 FreebiesXpress.com": Unsupported extension: com
-[2019-03-18 09:06:24] layer "Google+": Expected end of input but "+" found.
-[2019-03-18 09:06:24] layer "Google+": Expected end of input but "+" found.
+[Sun Mar 17 2019 23:34:10 GMT+0200 (Финляндия (зима))] Layer "Google+": Expected end of input but "+" found.
+[Sun Mar 17 2019 23:34:10 GMT+0200 (Финляндия (зима))] Layer "Google+": Expected end of input but "+" found.
+[Sun Mar 17 2019 23:34:10 GMT+0200 (Финляндия (зима))] Layer "Tuts+": Expected end of input but "+" found.
+[Wed Mar 20 2019 20:17:36 GMT+0200 (Финляндия (зима))] Layer "© Copyright 2014 FreebiesXpress.com": Unsupported extension: com
+[Sun Mar 17 2019 23:34:10 GMT+0200 (Финляндия (зима))] Layer "Google+": Expected end of input but "+" found.
+[Sun Mar 17 2019 23:34:10 GMT+0200 (Финляндия (зима))] Layer "Google+": Expected end of input but "+" found.
