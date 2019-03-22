@@ -100,7 +100,7 @@ nav {
     margin-bottom: 120px;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     /* height: 185px; */
 }
@@ -155,7 +155,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 } 
 .portfolio_cards_text {
@@ -371,7 +371,7 @@ form {
     justify-content: center; */
     
 }
-.name_mail_text input {
+.name_mail_text input, textarea {
     border: none;
     border-radius: 3px;
     padding-left: 10px;
@@ -380,6 +380,7 @@ form {
     width: 100%;
     font-size: 14px;
     box-sizing: border-box;
+    color: #656565;
 }
 .name_mail_text input:nth-last-child(1) {
     margin: 0;
@@ -390,10 +391,11 @@ form {
     border: none;
     border-radius: 3px;
     padding-left: 10px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     min-height: 210px;
     font-size: 14px;
     box-sizing: border-box;
+    color: black;
 }
 .name_mail_text, .message {
     width: 45%;
@@ -428,15 +430,19 @@ form {
 footer {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 70%;
     margin: 0 auto;
     padding: 20px 0 20px 0;
 }
 .footer_text, .feedback_footer, .empty_footer {
     width: 100%;
+    margin-bottom: 10px;
     flex-grow: 1;
     display: flex;
+}
+.footer_text {
+    text-align: center;
 }
 .footer_text p {
     font-size: 17px;
