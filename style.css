@@ -386,10 +386,11 @@ form {
     margin: 0;
 }
 .message {
-    display: flex;
-    align-items: flex-start;
+    /* display: flex;
+    align-items: flex-start; */
     border: none;
     border-radius: 3px;
+    padding-top: 10px;
     padding-left: 10px;
     /* margin-left: 30px; */
     min-height: 210px;
@@ -429,14 +430,15 @@ form {
 
 footer {
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     width: 70%;
     margin: 0 auto;
     padding: 20px 0 20px 0;
 }
 .footer_text, .feedback_footer, .empty_footer {
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 10px;
     flex-grow: 1;
     display: flex;
